@@ -13,16 +13,16 @@ import { UserAvatar20Module } from '@carbon/icons-angular/lib/user--avatar/20';
 import { AppSwitcher20Module } from '@carbon/icons-angular/lib/app-switcher/20';
 
 @NgModule({
-		declarations: [AppComponent, HeaderComponent],
-		imports: [
-				BrowserModule,
-				AppRoutingModule,
-				UIShellModule,
-				Notification20Module,
-				UserAvatar20Module,
-				AppSwitcher20Module
-		],
-		providers: [],
-		bootstrap: [AppComponent]
+    declarations: [AppComponent, HeaderComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        UIShellModule,
+        Notification20Module,
+        UserAvatar20Module,
+        AppSwitcher20Module,
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
 })
 export class AppModule {}

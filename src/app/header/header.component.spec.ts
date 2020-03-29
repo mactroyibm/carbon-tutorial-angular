@@ -8,23 +8,23 @@ import { UserAvatar20Module } from '@carbon/icons-angular/lib/user--avatar/20';
 import { AppSwitcher20Module } from '@carbon/icons-angular/lib/app-switcher/20';
 
 describe('HeaderComponent', () => {
-		let component: HeaderComponent;
-		let fixture: ComponentFixture<HeaderComponent>;
+    let component: HeaderComponent;
+    let fixture: ComponentFixture<HeaderComponent>;
 
-		beforeEach(async(() => {
-				TestBed.configureTestingModule({
-						declarations: [HeaderComponent],
-						imports: [UIShellModule]
-				}).compileComponents();
-		}));
+    beforeEach(async(() => {
+        TestBed.configureTestingModule({
+            declarations: [HeaderComponent],
+            imports: [UIShellModule],
+        }).compileComponents();
+    }));
 
-		beforeEach(() => {
-				fixture = TestBed.createComponent(HeaderComponent);
-				component = fixture.componentInstance;
-				fixture.detectChanges();
-		});
+    beforeEach(() => {
+        fixture = TestBed.createComponent(HeaderComponent);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+    });
 
-		it('should create', () => {
-				expect(component).toBeTruthy();
-		});
+    it('should create', () => {
+        expect(component).toBeTruthy();
+    });
 });
